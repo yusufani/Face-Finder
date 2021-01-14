@@ -20,7 +20,7 @@ def get_args():
     parser.add_argument('--facial_landmarks', nargs="+", default=[], type=str)
     parser.add_argument('--live', type=bool, default=False,help="Not implemented yet")
     parser.add_argument('--crop', type=bool, default=False)
-    parser.add_argument('--save_res', type=bool, default=False)
+    parser.add_argument('--save_res', type=bool, default=True)
     parser.add_argument("--output", type=str, default="outputs")
     parser.add_argument('--show_images', type=bool, default=False)
     parser.add_argument('--save_facial_landmarks', type=bool, default=True)

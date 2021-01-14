@@ -11,7 +11,6 @@ class Dlib_HOG_based_detector():
     def get_faces(self,image_path,crop=False):
         real_image = cv2.imread(image_path)
         result = {}
-
         image = real_image.copy()
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # This model works on gray scale image
         boxes = []
