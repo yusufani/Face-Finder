@@ -1,0 +1,2 @@
+pip install mtcnn
+pip install --upgrade imutils
